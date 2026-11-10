@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #f6f8fb;
+  --color-cream: #eef3fa;
+  --color-foam: #ffffff;
+  --color-ink: #0a0d14;
+  --color-muted: #5c6b7a;
+  --color-line: #e2e6ee;
+  --color-chile: #144baf;
+  --color-chile-deep: #0e3a8c;
+  --color-blue-hover: #0974f8;
+  --color-navy: #041943;
+  --color-navy-deep: #020f28;
+  --color-espresso: #161922;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1.125rem;
+  --radius-xl: 1.75rem;
+
+  --shadow-lift: 0 18px 40px -24px rgb(20 18 16 / 0.35);
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.55;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+  }
+
+  ::selection {
+    background: var(--color-chile);
+    color: var(--color-foam);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.plus-grid {
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in oklab, var(--color-ink) 7%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--color-ink) 7%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+}
+
+.plus-grid-dark {
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in oklab, var(--color-foam) 8%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--color-foam) 8%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+}
+
+.reveal {
+  animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.reveal-d1 {
+  animation-delay: 80ms;
+}
+.reveal-d2 {
+  animation-delay: 160ms;
+}
+.reveal-d3 {
+  animation-delay: 240ms;
+}
+.reveal-d4 {
+  animation-delay: 320ms;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "redirects": [
+    {
+      "source": "/hispanic-marketing-blog",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog-category/:path*",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-audio-in-the-us-hispanic-market",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hispanic-facts-for-marketers-1-to-3",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/click-fraud-protection-and-hispanic-digital-campaigns",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-branding-workshop-at-the-hispanic-business-expo",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/diversity-in-technology-panel-conversation",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-to-hispanic-sports-fans-in-chicago",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spanish-media-joins-the-wework-community",
+      "destination": "/hispanic-marketing-insights",
+      "permanent": true
+    }
+  ]
+}
