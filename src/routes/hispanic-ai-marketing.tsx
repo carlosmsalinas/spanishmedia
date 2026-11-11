@@ -37,7 +37,8 @@ function ServicesPage() {
               By combining an exceptional knowledge of U.S. Hispanic consumer
               behavior, innovative digital content, and precise AI targeted
               campaigns, we help brands achieve trackable business growth from
-              today's U.S. Hispanic market.
+              today's U.S. Hispanic market. That is U.S. Hispanic performance
+              marketing.
             </p>
           </div>
         </section>
@@ -50,6 +51,16 @@ function ServicesPage() {
                 <p className="mt-3 text-base leading-relaxed text-muted">
                   {item.body}
                 </p>
+                {item.href && (
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-sm font-medium text-chile"
+                  >
+                    Visit Hispaniverse →
+                  </a>
+                )}
               </article>
             ))}
           </div>

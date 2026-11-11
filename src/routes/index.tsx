@@ -294,7 +294,7 @@ function Verticals() {
     <section className="border-b border-line bg-cream">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
         <h2 className="font-display text-4xl text-ink sm:text-5xl">
-          U.S. Hispanic performance by category.
+          Different industries. One result: more Hispanic customers.
         </h2>
         <div className="mt-10 grid gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
           {verticals.map((item) => (

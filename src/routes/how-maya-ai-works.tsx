@@ -24,23 +24,28 @@ const faqs = [
 const values = [
   {
     n: "01",
-    title: "Be there when your Hispanic audience is ready to choose",
-    body: "Get your plan, copy, and creative direction about 12 times faster—so your campaign reaches your audience while they’re still choosing, not after they’ve bought from someone else.",
+    title: "Reach customers before your competitors do",
+    body: "Go from brief to live campaign up to 12× faster, so you reach Hispanic customers while they’re still deciding, not after they’ve chosen someone else.",
   },
   {
     n: "02",
-    title: "Built for your Hispanic audience. Not just translated",
-    body: "Your campaign starts with your audience—not with a finished ad in another language. The offer, the message, and the creative are developed for them from the start, in Spanish and English.",
+    title: "Earn the trust a translation never will",
+    body: "Your offer, message, and creative are built for your Hispanic audience from day one, in Spanish and English. When customers feel understood, they call, book, and buy.",
   },
   {
     n: "03",
-    title: "The budget follows a customer",
-    body: "Once the work is live, Maya AI points at what earned a call, a booking, a sign-up, or a sale. The team moves the money. Impressions are not the report.",
+    title: "Know exactly what your money returned",
+    body: "We track the calls, bookings, sign-ups, and sales your campaign drives, then shift budget to what’s winning. You see customers gained, not impressions bought.",
   },
   {
     n: "04",
-    title: "You get a finished campaign, not a draft",
-    body: "Maya AI proposes the plan, the copy, and the direction. Our cultural experts—copywriters, designers, and video editors—turn that into the campaign that runs. You get the speed without putting a draft in market.",
+    title: "A complete Hispanic marketing team, without hiring one",
+    body: "Strategists, copywriters, designers, video editors, and media buyers, all experts in the Hispanic market and powered by Maya AI. You get finished, market-ready campaigns with nothing to manage.",
+  },
+  {
+    n: "05",
+    title: "One team from plan to performance",
+    body: "Strategy, creative, and media buying live under one roof, so nothing gets lost between agencies and you have one point of accountability.",
   },
 ];
 
@@ -106,7 +111,7 @@ function MayaPage() {
               What you get
             </p>
             <h2 className="mt-3 max-w-3xl font-display text-4xl text-ink sm:text-5xl">
-              The culture stays in the work. The campaign gets there faster.
+              More Hispanic customers, faster, with the culture built in.
             </h2>
             <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">
               Maya proposes the plan, the lines, and the direction. Cultural

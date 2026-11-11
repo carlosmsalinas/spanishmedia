@@ -7,7 +7,7 @@ import { pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/hispanic-marketing-insights")({
   head: () =>
     pageHead({
-      title: "Insights | Spanish+Media",
+      title: "Hispanic Marketing Insights | Spanish+Media",
       description:
         "Stay ahead with the latest in U.S. Hispanic digital marketing trends from Spanish+Media.",
       path: "/hispanic-marketing-insights",

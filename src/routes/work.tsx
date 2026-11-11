@@ -31,10 +31,10 @@ function WorkPage() {
               {CULTURE_LINE}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-              Translation is the easy part. Getting a U.S. Hispanic customer
-              to act is the work. Spanish+Media does that in search, social,
-              and retail, and the proof is a sign-up, a lead, a surgery, or a
-              sale. The names stay private. The outcomes do not.
+              Translation is the easy part. Getting a Hispanic customer to
+              sign up, call, book, or buy is the work. Here’s what that looks
+              like across search, social, retail media, and UGC. The names
+              stay private. The results don’t.
             </p>
           </div>
         </section>
@@ -78,11 +78,6 @@ function WorkPage() {
             </div>
           </article>
         ))}
-        <section className="px-5 py-10 text-center sm:px-8">
-          <Link to="/contact" className="text-sm font-medium text-chile">
-            Start a similar conversation
-          </Link>
-        </section>
         <CtaBand />
       </main>
     </SiteShell>

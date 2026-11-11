@@ -72,7 +72,7 @@ function AboutPage() {
                   The Spanish+Media digital advantage
                 </p>
                 <h2 className="mt-3 font-display text-4xl text-ink sm:text-5xl">
-                  Cultural attractiveness is how the media converts.
+                  Culture is what makes the media convert.
                 </h2>
               </div>
               <p className="text-base leading-relaxed text-muted lg:col-span-5">
@@ -121,12 +121,16 @@ function AboutPage() {
                 Our office
               </p>
               <h2 className="mt-3 font-display text-4xl text-ink">
-                Downtown Chicago. Markets everywhere.
+                Rooted in Chicago. Reaching Hispanic customers nationwide.
               </h2>
               <p className="mt-5 text-base leading-relaxed text-muted">
-                Our headquarters are located in the downtown area of the Windy
-                City, from which we serve clients across the United States,
-                Mexico, Europe, and Asia.
+                We’re based in downtown Chicago, a city that is home to one of
+                the largest Hispanic communities in the U.S. It’s where we live,
+                work, and test what resonates.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-muted">
+                From here we help clients across the United States, Mexico,
+                Europe, and Asia scale their U.S. Hispanic customer acquisition.
               </p>
               <p className="mt-4 text-sm text-ink">
                 500 West Madison Street, Suite 1000

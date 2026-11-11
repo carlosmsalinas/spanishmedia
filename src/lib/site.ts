@@ -73,6 +73,7 @@ export const capabilities = [
   {
     title: "Influencer + UGC",
     body: "Leverage U.S. Hispanic creators to boost brand visibility and sales through Hispaniverse.",
+    href: "https://www.hispaniverse.com/?utm_source=spanishmedia.com&utm_medium=website",
   },
   {
     title: "Experiential",
@@ -83,39 +84,39 @@ export const capabilities = [
 export const verticals = [
   {
     title: "Automotive",
-    body: "Boost showroom ROI with campaigns that lead to leads and service bookings from U.S. Hispanic drivers.",
+    body: "Fill your showroom and service bays with Hispanic drivers, using campaigns that speak to the whole family.",
   },
   {
     title: "Beauty",
-    body: "Engage U.S. Hispanic beauty consumers with campaigns that scale product trials and repeat purchases.",
+    body: "Turn first trials into repeat purchases with creators and content Hispanic beauty shoppers actually trust.",
   },
   {
     title: "CPG",
-    body: "Move product off the shelf with culturally fluent retail media, search, and social that convert trial into repeat.",
+    body: "Move product off the shelf with retail media, search, and social that turn a first purchase into a family habit.",
   },
   {
     title: "Financial",
-    body: "Build trust and increase account openings by responding to the financial priorities of U.S. Hispanic consumers.",
+    body: "Open more accounts by answering Hispanic consumers’ real financial questions clearly and in their language.",
   },
   {
     title: "Healthcare",
-    body: "Earn trust and appointments with bilingual journeys that respect family decision-making.",
+    body: "Book more appointments with bilingual journeys built for how Hispanic families make health decisions together.",
   },
   {
     title: "Legal",
-    body: "Generate consultations with resources that address specific legal concerns in U.S. Hispanic communities.",
+    body: "Generate more consultations with call-first campaigns that build trust before the first conversation.",
   },
   {
     title: "Media",
-    body: "Expand audience reach with culturally fluent content that increases subscriptions and engagement.",
+    body: "Grow subscribers and viewers from Hispanic audiences, often at a lower cost than the general market.",
   },
   {
     title: "Sports",
-    body: "Grow the fan base with campaigns that drive ticket sales and merchandise purchases.",
+    body: "Sell more tickets and merchandise to Hispanic fans who already live for the game.",
   },
   {
     title: "Technology",
-    body: "Increase product adoption and scale trials and subscription conversions with U.S. Hispanic tech consumers.",
+    body: "Drive more downloads, trials, and paid subscriptions from bilingual, mobile-first Hispanic users.",
   },
 ];
 
@@ -259,7 +260,7 @@ export const work = [
     image: "/images/work-ugc-food-2.jpg",
     alt: "Hispanic cook checking a phone in the kitchen, for a UGC flavor line campaign",
     result:
-      "A national food brand used UGC-style video on TikTok and Instagram Reels to present a Hispanic flavor line as food people actually cook. Social engagement rose 1,460%, impressions rose 916%, and cost per click dropped 384%.",
+      "A national food brand used UGC-style video on TikTok and Instagram Reels to present a Hispanic flavor line as food people actually cook. Social engagement rose 1,460%, impressions rose 916%, and cost per click decreased by 19%.",
   },
   {
     slug: "home-goods",
