@@ -31,7 +31,7 @@ function ServicesPage() {
               Discovery and lead generation services
             </p>
             <h1 className="mt-4 max-w-4xl font-display text-5xl text-ink sm:text-6xl text-balance">
-              Get More U.S. Hispanic Customers
+              We help brands grow in the US Hispanic market.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               By combining an exceptional knowledge of U.S. Hispanic consumer

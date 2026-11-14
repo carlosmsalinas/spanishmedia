@@ -44,7 +44,7 @@ export const services = [
 export const capabilities = [
   {
     title: "Discovery and Strategy",
-    body: "For brands that do not know where to start. We find the audience, the offer, and the channels, then leave you with a plan built to convert.",
+    body: "For brands that need a clear starting point. We define who the Hispanic customer is, why they’d switch, and which channels should carry the offer—then hand you a plan you can buy against.",
   },
   {
     title: "Paid Search",
