@@ -239,16 +239,16 @@ export const work = [
       "A cash-back app needed awareness and downloads from U.S. Hispanic customers. Influencer and UGC videos ran on the creators’ own channels. Organic impressions rose 835%, downloads rose 1,583%, and the work earned $117,000 in coverage. Paid media spend was zero.",
   },
   {
-    slug: "medicare",
-    client: "Health insurance",
-    category: "Healthcare · UGC",
-    title: "More calls, and more revenue, without more media spend.",
-    metric: "294%",
-    metricLabel: "More calls and consults",
-    image: "/images/work-medicare.jpg",
-    alt: "Healthcare conversation for a U.S. Hispanic Medicare call campaign",
-    result:
-      "A Medicare Advantage provider needed trust and leads from U.S. Hispanic customers. UGC videos on Meta lifted revenue 64% and calls and consultation requests 294%, with no additional paid media.",
+slug: "medicare",
+  client: "Health insurance",
+  category: "Healthcare · UGC",
+  title: "More calls, and more revenue, without more media spend.",
+  metric: "294%",
+  metricLabel: "More calls and consults",
+  image: "/images/work-medicare-happy.jpg",
+  alt: "Happy Hispanic couple smiling together, for a U.S. Hispanic healthcare UGC campaign",
+  result:
+  "A Medicare Advantage provider needed trust and leads from U.S. Hispanic customers. UGC videos on Meta lifted revenue 64% and calls and consultation requests 294%, with no additional paid media.",
   },
   {
     slug: "food-ugc",
