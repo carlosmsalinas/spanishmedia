@@ -170,6 +170,7 @@ function WorkStrip() {
                 <img
                   src={item.image}
                   alt={item.alt}
+                  loading="lazy"
                   className="aspect-4/3 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
                 />
               </div>
@@ -264,6 +265,7 @@ function Culture() {
           <img
             src="/images/community-market-hair.jpg"
             alt="Hispanic shopper checking her phone in a grocery aisle, for a U.S. Hispanic marketing campaign"
+            loading="lazy"
             className="aspect-4/3 w-full object-cover"
           />
         </div>

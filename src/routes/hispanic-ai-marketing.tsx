@@ -16,7 +16,7 @@ export const Route = createFileRoute("/hispanic-ai-marketing")({
       path: "/hispanic-ai-marketing",
       image: "/og/services.jpg",
       imageAlt:
-        "Woman with a laptop on a couch, for a U.S. Hispanic streaming and digital marketing campaign",
+        "Hispanic woman with a laptop on a couch, for a U.S. Hispanic streaming and digital marketing campaign",
     }),
   component: ServicesPage,
 });

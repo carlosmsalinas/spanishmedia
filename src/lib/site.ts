@@ -138,7 +138,7 @@ export const work = [
     metric: "395%",
     metricLabel: "More Hispanic sign-ups",
     image: "/images/work-streaming.jpg",
-    alt: "Woman with a laptop on a couch, for a U.S. Hispanic streaming sign-up campaign",
+    alt: "Hispanic woman with a laptop on a couch, for a U.S. Hispanic streaming and digital sign-up campaign",
     result:
       "In three months, a streaming platform’s Hispanic sign-ups rose 395%, at a cost per acquisition 12% lower than for non-Hispanic customers. The work was the audience, the message, and the channels.",
   },
@@ -150,7 +150,7 @@ export const work = [
     metric: "3×",
     metricLabel: "Monthly surgeries",
     image: "/images/work-cosmetic.jpg",
-    alt: "Cosmetic surgery consultation scene for a U.S. Hispanic patient acquisition campaign",
+    alt: "Hispanic woman in a cosmetic surgery consultation, for a U.S. Hispanic patient acquisition campaign",
     result:
       "A Midwest cosmetic surgery practice needed more elective procedures from Spanish-speaking patients. Prospecting and retargeting on Google and Meta tripled monthly surgeries within a month.",
   },
@@ -162,7 +162,7 @@ export const work = [
     metric: "60%",
     metricLabel: "Lower cost per acquisition",
     image: "/images/work-clinics.jpg",
-    alt: "Clinic waiting area for a U.S. Hispanic specialty care lead campaign",
+    alt: "Hispanic family in a clinic waiting area, for a U.S. Hispanic specialty care lead campaign",
     result:
       "A national clinic group needed Hispanic patients in 18 markets, especially women over 50. Spanish search and social produced 1.5 times as many social leads, at a cost 60% lower than its general-market social campaigns.",
   },
@@ -174,7 +174,7 @@ export const work = [
     metric: "Best seller",
     metricLabel: "Nationwide",
     image: "/images/work-protein-6.jpg",
-    alt: "Hispanic shopper selecting meat for a national Hispanic flavor line campaign",
+    alt: "Hispanic shopper selecting meat in a grocery aisle, for a U.S. Hispanic CPG flavor line campaign",
     result:
       "A global protein company launched beef, chicken, and pork with traditional Hispanic flavors for U.S. retail. We found the audiences and bought search, social, and retail media. The line became a nationwide bestseller.",
   },
@@ -246,7 +246,7 @@ slug: "medicare",
   metric: "294%",
   metricLabel: "More calls and consults",
   image: "/images/work-medicare-happy.jpg",
-  alt: "Happy Hispanic couple smiling together, for a U.S. Hispanic healthcare UGC campaign",
+  alt: "Older Hispanic couple smiling together at home, for a U.S. Hispanic Medicare and healthcare UGC campaign",
   result:
   "A Medicare Advantage provider needed trust and leads from U.S. Hispanic customers. UGC videos on Meta lifted revenue 64% and calls and consultation requests 294%, with no additional paid media.",
   },
@@ -258,7 +258,7 @@ slug: "medicare",
     metric: "1,460%",
     metricLabel: "More social engagement",
     image: "/images/work-ugc-food-2.jpg",
-    alt: "Hispanic cook checking a phone in the kitchen, for a UGC flavor line campaign",
+    alt: "Hispanic man checking his phone while cooking, for a U.S. Hispanic CPG UGC flavor line campaign",
     result:
       "A national food brand used UGC-style video on TikTok and Instagram Reels to present a Hispanic flavor line as food people actually cook. Social engagement rose 1,460%, impressions rose 916%, and cost per click decreased by 19%.",
   },
@@ -289,6 +289,15 @@ slug: "medicare",
 ];
 
 export const insights = [
+  {
+    slug: "black-friday",
+    date: "November 2026",
+    tag: "Insights",
+    title: "Black Friday Isn’t a Sale. It’s a Decision Window.",
+    dek: "For U.S. Hispanic shoppers, Black Friday isn’t about the discount. It’s about whether the offer belongs when the decision is being made.",
+    to: "/blog/black-friday-hispanic" as const,
+    image: "/images/culture-table.jpg",
+  },
   {
     slug: "inc-midwest",
     date: "April 2025",

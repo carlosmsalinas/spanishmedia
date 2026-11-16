@@ -25,7 +25,7 @@ export const Route = createFileRoute("/blog/culture-is-a-media-channel")({
       type: "article",
       image: "/og/hispanic-version.jpg",
       imageAlt:
-        "Three Hispanic women talking at a kitchen table, the setting for a U.S. Hispanic campaign",
+        "Three Hispanic women talking at a kitchen table, the setting for a U.S. Hispanic marketing campaign",
     });
     return {
       ...base,

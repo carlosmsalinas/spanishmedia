@@ -13,7 +13,7 @@ export const Route = createFileRoute("/work")({
       path: "/work",
       image: "/og/work.jpg",
       imageAlt:
-        "Hispanic cook checking a phone in the kitchen, for a U.S. Hispanic UGC flavor line campaign",
+        "Hispanic man checking his phone while cooking, for a U.S. Hispanic CPG UGC flavor line campaign",
     }),
   component: WorkPage,
 });
@@ -28,7 +28,7 @@ function WorkPage() {
               Selected work
             </p>
             <h1 className="mt-4 max-w-4xl font-display text-5xl text-ink sm:text-6xl text-balance">
-              {CULTURE_LINE}
+              Proof of Culture as a Performance Channel.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               Translation is the easy part. Getting a Hispanic customer to
@@ -55,6 +55,7 @@ function WorkPage() {
                 <img
                   src={item.image}
                   alt={item.alt}
+                  loading="lazy"
                   className="aspect-4/3 w-full object-cover"
                 />
               </div>

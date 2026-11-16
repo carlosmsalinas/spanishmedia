@@ -13,7 +13,7 @@ export const Route = createFileRoute("/hispanic-marketing-insights")({
       path: "/hispanic-marketing-insights",
       image: "/og/insights.jpg",
       imageAlt:
-        "Three Hispanic women talking at a kitchen table, the setting for a U.S. Hispanic campaign",
+        "Three Hispanic women talking at a kitchen table, the setting for a U.S. Hispanic marketing campaign",
     }),
   component: InsightsPage,
 });

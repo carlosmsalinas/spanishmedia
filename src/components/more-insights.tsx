@@ -30,6 +30,7 @@ export function MoreInsights({ current }: { current: string }) {
               <img
                 src={item.image}
                 alt={item.title}
+                loading="lazy"
                 className="aspect-16/10 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
               />
             </div>

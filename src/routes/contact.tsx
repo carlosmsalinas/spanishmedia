@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       path: "/contact",
       image: "/og/contact.jpg",
       imageAlt:
-        "Hispanic shopper selecting meat for a national Hispanic flavor line campaign",
+        "Hispanic shopper selecting meat in a grocery aisle, for a U.S. Hispanic CPG campaign",
     }),
   component: ContactPage,
 });
