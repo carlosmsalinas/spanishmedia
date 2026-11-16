@@ -85,7 +85,7 @@ function CulturePost() {
           </header>
           <div className="mx-auto max-w-2xl px-5 py-14 sm:px-8 sm:py-16">
             <div className="space-y-6 text-lg leading-relaxed text-ink">
-              <p>
+              <p className="font-normal text-muted">
                 The request usually arrives after the English campaign is
                 finished. Can you make a Hispanic version? Translate the
                 headlines. Change the photo. Sometimes they add, “And find some
