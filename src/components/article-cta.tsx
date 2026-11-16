@@ -10,14 +10,14 @@ export function ArticleCta({
   body?: string;
 }) {
   return (
-    <aside className="mt-12 rounded-xl border border-line bg-cream px-6 py-7 sm:px-8 sm:py-8">
+    <aside className="mt-12 rounded-xl border border-line bg-cream px-6 py-8 sm:px-10 sm:py-10">
       <p className="text-xs font-semibold tracking-[0.18em] text-chile uppercase">
         Next step
       </p>
-      <h2 className="mt-2 max-w-lg font-display text-2xl text-ink sm:text-3xl">
+      <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl text-balance">
         {headline}
       </h2>
-      <p className="mt-3 max-w-md text-base leading-relaxed text-muted">
+      <p className="mt-4 text-base leading-relaxed text-muted">
         {body}
       </p>
       <Button asChild className="mt-6" size="lg">
